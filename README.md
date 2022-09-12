@@ -1,11 +1,10 @@
-# jupyter_rospkg
+# jupyter-rospkg
 
 [![Github Actions Status](https://github.com/ihuicatl/jupyter-rospkg/workflows/Build/badge.svg)](https://github.com/ihuicatl/jupyter-rospkg/actions/workflows/build.yml)
 A server extension for JupyterLab to handle ROS packages
 
 This extension is composed of a Python package named `jupyter_rospkg`
-for the server extension and a NPM package named `jupyter-rospkg`
-for the frontend extension.
+for the server extension.
 
 ## Requirements
 
@@ -29,18 +28,10 @@ pip uninstall jupyter_rospkg
 
 ## Troubleshoot
 
-If you are seeing the frontend extension, but it is not working, check
-that the server extension is enabled:
+If it is not working, check that the server extension is enabled:
 
 ```bash
 jupyter server extension list
-```
-
-If the server extension is installed and enabled, but you are not seeing
-the frontend extension, check the frontend extension is installed:
-
-```bash
-jupyter labextension list
 ```
 
 ## Contributing
