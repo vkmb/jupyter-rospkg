@@ -29,7 +29,8 @@ classifiers = [
 ]
 dependencies = [
     "jupyter_server>=1.6,<2",
-    "rospkg"
+    "rospkg",
+    "notebook"
 ]
 
 [project.optional-dependencies]
