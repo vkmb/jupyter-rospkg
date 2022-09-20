@@ -1,10 +1,9 @@
 include LICENSE
 include *.md
 include pyproject.toml
-recursive-include jupyter-config *.json
 include conftest.py
 
-graft jupyter_rospkg/labextension
+graft jupyter_rospkg/config
 
 # Patterns to exclude from any directory
 global-exclude *~
