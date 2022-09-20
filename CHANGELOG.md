@@ -2,6 +2,22 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.3.0
+
+([Full Changelog](https://github.com/ihuicatl/jupyter-rospkg/compare/v0.2.1...9a9a797832fed119d61b751b2a046ee8cc00f67e))
+
+### Bugs fixed
+
+- Automatically enable server extension after install [#10](https://github.com/ihuicatl/jupyter-rospkg/pull/10) ([@ihuicatl](https://github.com/ihuicatl))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/ihuicatl/jupyter-rospkg/graphs/contributors?from=2022-09-15&to=2022-09-20&type=c))
+
+[@ihuicatl](https://github.com/search?q=repo%3Aihuicatl%2Fjupyter-rospkg+involves%3Aihuicatl+updated%3A2022-09-15..2022-09-20&type=Issues)
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.2.1
 
 ([Full Changelog](https://github.com/ihuicatl/jupyter-rospkg/compare/v0.2.0...017479dea5077702fce3455fe0cdb0bebdcd6f4c))
@@ -19,8 +35,6 @@
 ([GitHub contributors page for this release](https://github.com/ihuicatl/jupyter-rospkg/graphs/contributors?from=2022-09-09&to=2022-09-15&type=c))
 
 [@ihuicatl](https://github.com/search?q=repo%3Aihuicatl%2Fjupyter-rospkg+involves%3Aihuicatl+updated%3A2022-09-09..2022-09-15&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.2.0
 
