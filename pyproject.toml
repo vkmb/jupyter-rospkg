@@ -45,3 +45,7 @@ test = [
 [project.urls]
 Homepage = "https://github.com/ihuicatl/jupyter-rospkg"
 
+[tool.hatch.env.default]
+post-install-commands = [
+    "jupyter server extension enable jupyter_rospkg"
+]
