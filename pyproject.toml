@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling>=1.3.1", "jupyterlab~=3.1"]
+requires = ["hatchling>=1.9.0", "jupyterlab~=3.1"]
 build-backend = "hatchling.build"
 
 [project]
@@ -45,7 +45,7 @@ test = [
 [project.urls]
 Homepage = "https://github.com/ihuicatl/jupyter-rospkg"
 
-[tool.hatch.env.default]
-post-install-commands = [
-    "jupyter server extension enable jupyter_rospkg"
-]
+[tool.hatch.build.targets.wheel.shared-data]
+"jupyter_rospkg/config/jpserver-jupyter-rospkg.json" = "etc/jupyter/jupyter_server_config.d/jpserver-jupyter-rospkg.json"
+"jupyter_rospkg/config/nbserver-jupyter-rospkg.json" = "etc/jupyter/jupyter_notebook_config.d/nbserver-jupyter-rospkg.json"
+

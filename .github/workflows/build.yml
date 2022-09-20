@@ -27,7 +27,6 @@ jobs:
 
         pytest -vv -r ap --cov jupyter_rospkg
         
-        jupyter server extension enable jupyter_rospkg
         jupyter server extension list
         jupyter server extension list 2>&1 | grep -ie "jupyter_rospkg.*OK"
 
@@ -72,7 +71,6 @@ jobs:
 
         pip install "jupyterlab~=3.1" jupyter_rospkg*.whl
 
-        jupyter server extension enable jupyter_rospkg
         jupyter server extension list
         jupyter server extension list 2>&1 | grep -ie "jupyter_rospkg.*OK"
 
